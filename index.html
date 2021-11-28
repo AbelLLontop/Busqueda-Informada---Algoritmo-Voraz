@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Algoritmo Voraz</title>
+</head>
+
+<body>
+
+	<div id="contenedor">
+		
+		<main>
+			<aside id="formulario">
+				<p>Punto de Origen:</p>
+				<select id="ddlViewBy">
+					<option>Arad</option>
+					<option>Craiova</option>
+					<option>Dobreta</option>
+					<option>Fagaras</option>
+					<option>Lugoj</option>
+					<option>Mehadia</option>
+					<option>Oradea</option>
+					<option>Pitesti</option>
+					<option>Rimnicu Vilcea</option>
+					<option>Sibiu</option>
+					<option>Timisoara</option>
+					<option>Zerind</option>
+				</select>
+				<button id="botonCalcular">Calcular</button>
+				<div class="resultado">
+					<p class="recorrido"></p>
+					<p class="distancia"></p>
+				</div>
+			</aside>
+			<h1>Algoritmo Voraz</h1>
+			<img class="mapa" src="img/mapa.png" alt="Mapa de Bucarest">
+			<img class="hn" src="img/hdlr.png" alt="h(n)">
+		</main>
+	
+		<canvas id="canvas" ></canvas>
+
+
+		
+	
+	</div>
+	
+   
+	<script src="js/main.js"></script>
+	<script src="js/canvas.js"></script>
+
+</body>
+
+</html>
